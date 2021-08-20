@@ -1,0 +1,28 @@
+[{
+Materia
+numero-
+Actividad
+Fecha-init
+Fecha de entrega
+}
+{
+Materia
+numero-
+Titulo-tarea
+Fecha-init
+Fecha de entrega
+}
+{
+Materia
+numero-
+Titulo-tarea
+Fecha-init
+Fecha de entrega
+}
+{
+Materia
+numero-
+Titulo-tarea
+Fecha-init
+Fecha de entrega
+}]

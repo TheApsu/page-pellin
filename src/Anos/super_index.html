@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades</title>
+    <link rel="stylesheet" href="super_index.css">
+    <script src="https://kit.fontawesome.com/b15ad0e7fc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="../../assets/Imagenes Logo/logo.png">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header-img">
+            <img class="img-logo" src="../../assets/Imagenes Logo/logo liceo.jpg" alt="Logo-Liceo-Pellin">
+        </div>
+        <div class="btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="header__nav">
+            <div class="flex-container">
+                <li onclick="redireccionarInicio('../../index.html')"><span><i class="fas fa-home"></i><a href="../../index.html">Inicio</a> </span></li>
+                
+                <li><span> <i class="fas fa-book-open"></i><a href="#">Grupo de Participacion</a> </span></li>
+                <ul class="nav">          
+                    <li><span><i class="fas fa-address-book"></i>Materia Pendiente</span>
+                        <ul>
+                            <li><a href="../Materia-pendiente/Materia-pendiente.html">5° Año</a></li>
+                            <li><a href="../Materia-pendiente/Materia-pendiente.html">4° Año</a></li>
+                            <li><a href="../Materia-pendiente/Materia-pendiente.html">3° Año</a></li>
+                            <li><a href="../Materia-pendiente/Materia-pendiente.html">2° Año</a></li>
+                            <li><a href="../Materia-pendiente/Materia-pendiente.html">1° Año</a></li>
+                        </ul>
+      
+                    </li>
+                    <li ><span>5° Año</span>
+                        <ul>
+                            <li><a href="super_index.html" onclick="asignarAno('5A')">Seccion A</a></li>
+                            <li><a href="super_index.html" onclick="asignarAno('5B')">Seccion B</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li ><span>4° Año</span>
+                        <ul>
+                            <li><a href="super_index.html" onclick="asignarAno('4A')">Seccion A</a></li>
+                            <li><a href="super_index.html" onclick="asignarAno('4B')">Seccion B</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li ><span>3° Año</span>
+                        <ul>
+                            <li><a href="super_index.html" onclick="asignarAno('3A')"> Seccion A</a></li>
+                            <li><a href="super_index.html" onclick="asignarAno('3B')">Seccion B</a></li>
+                        </ul>
+                    </li>
+                    <li ><span>2° Año</span>
+                        <ul>
+                            <li><a href="super_index.html" onclick="asignarAno('2A')" >Seccion A</a></li>
+                            <li><a href="super_index.html" onclick="asignarAno('2B')" >Seccion B</a></li>
+                        </ul>
+                    </li>
+                    <li ><span>1° Año</span>
+                        <ul>
+                            <li><a href="super_index.html" onclick="asignarAno('1A')">Seccion A</a></li>
+                            <li><a href="super_index.html" onclick="asignarAno('1B')" >Seccion B</a></li>
+                        </ul>
+                    </li>            
+                </ul>                        
+            </div>
+            
+            
+            <div class="animation start-home"></div>
+           
+        </nav>
+       
+    </header>
+    <article>
+        
+        <div class="titulo">
+            <h1 id="title"></h1>
+        </div>
+
+        <div class="contenedor">
+            <form id="form" action="">
+                
+                
+                <select name="" id="select" >
+                    <span><i class="fas fa-search"></i></span>
+                    <option value="Filtrar Materias">Mostrar Todas</option>
+                    <option value="Biologia">Biologia</option>
+                    <option value="Castellano">Castellano</option>
+                    <option value="Química">Química</option>
+                    <option value="Fisica">Física</option>
+                    <option value="Geografria">Geografía, Historia y Ciudadanía</option>
+                    <option value="Educacion Fisica">Educación Física</option>
+                    <option value="Formacion para la soberania">Formación para la soberanía Nacional</option>
+                    <option value="Ciencias de la Tierra">Ciencias de la Tierra</option>
+                    <option value="Orientacion y convivencia">Orientación y convivencia</option>
+                    <option value="Matematica">Matematica</option>
+                </select>
+                <i class="fas fa-sliders-h"></i> </form>    
+            
+        </div>
+    
+        <section id="section" class="wrapper">
+        
+            <div class="spinner"></div>
+            
+        </section>
+    </article>
+    
+    <footer>
+        <div id="contact">
+            <span class="contact-section"><b>Contact</b> </span>
+            <ul id="contact-list">
+                <li> <a href="http://instagram.com/theapsu3" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li> <a href="http://wa.me" target="_blank" ><i class="fab fa-whatsapp" ></i></a></li>
+                <li> <a href="https://www.facebook.com/Duque.Ricardo2004" target="_blank"><i class="fab fa-facebook-f"></i></a> </li>
+                <li> <a href="https://web.telegram.org/" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+                <li> <a href="https://ve.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li> <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li> <a href="https://workana.com/" target="_blank"><i class="fas fa-user-friends"></i></a></li>
+            </ul>
+            <span id="copy-section">@copyright All reserved by R&R</span>
+            <span> <b>Web Designed by</b>: Ricardo Duque fond of technologies and always willing to learn</span>
+        </div>
+    </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAqTgM_B8MotJYeEavLfChVXSJdhk22Wh4",
+        authDomain: "liceo-pellin-web-page.firebaseapp.com",
+        databaseURL: "https://liceo-pellin-web-page-default-rtdb.firebaseio.com",
+        projectId: "liceo-pellin-web-page",
+        storageBucket: "liceo-pellin-web-page.appspot.com",
+        messagingSenderId: "1025560457895",
+        appId: "1:1025560457895:web:6d0531866643ec6bb32182"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+   <script src="super_index.js"></script>
+   <script src="../../utils/multi_index.js"></script>
+</body>
+</html>

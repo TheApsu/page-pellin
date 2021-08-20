@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Liceo Bolivariano Mons. Dr. Jesús María Pellín</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b15ad0e7fc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/Imagenes Logo/logo.png">
+    <script src="utils/multi_index.js"></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-img">
+            <img class="img-logo" src="assets/Imagenes Logo/logo liceo.jpg" alt="Logo-Liceo-Pellin">
+        </div>
+        <div class="btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="header__nav">
+            <div class="flex-container">
+                <li onclick="redireccionarInicio('index.html')" tabindex="1"><span><i class="fas fa-home"></i><a href="index.html">Inicio</a> </span></li>
+                
+                <li><span> <i class="fas fa-book-open" tabindex="2"></i><a href="#">Grupo de Participacion</a> </span></li>
+                <ul class="nav">          
+                    <li class="list-year" tabindex="3"><span><i class="fas fa-address-book"></i>Materia Pendiente</span>
+                        <ul>
+                            <li><a href="src/Materia-pendiente/Materia-pendiente.html">5° Año</a></li>
+                            <li><a href="src/Materia-pendiente/Materia-pendiente.html">4° Año</a></li>
+                            <li><a href="src/Materia-pendiente/Materia-pendiente.html">3° Año</a></li>
+                            <li><a href="src/Materia-pendiente/Materia-pendiente.html">2° Año</a></li>
+                            <li><a href="src/Materia-pendiente/Materia-pendiente.html">1° Año</a></li>
+                        </ul>
+      
+                    </li>
+                    <li class="list-year" tabindex="4"><span>5° Año</span>
+                        <ul>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('5A')">Seccion A</a></li>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('5B')">Seccion B</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="list-year" tabindex="5"><span>4° Año</span>
+                        <ul>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('4A')">Seccion A</a></li>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('4B')">Seccion B</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="list-year" tabindex="6"><span>3° Año</span>
+                        <ul>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('3A')"> Seccion A</a></li>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('3B')">Seccion B</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-year" tabindex="7"><span>2° Año</span>
+                        <ul>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('2A')" >Seccion A</a></li>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('2B')" >Seccion B</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-year" tabindex="8"><span>1° Año</span>
+                        <ul>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('1A')">Seccion A</a></li>
+                            <li><a href="src/Anos/super_index.html" onclick="asignarAno('1B')" >Seccion B</a></li>
+                        </ul>
+                    </li>            
+                </ul>                        
+            </div>
+            
+            
+            <div class="animation start-home"></div>
+           
+        </nav>
+       
+    </header>
+  
+    <article>
+        <section class="wrapper">
+        
+
+            <section class="main">
+    
+                <div class="main__div-informacion-principal">
+                    <div class="titleFixed">
+                        <h1>Liceo Bolivariano Mons Dr Jesús María Pellín</h1>
+                    </div>
+    
+                    <div class="cards LP" title="Ver más información"  onclick="mostrar('InfoInst')"> 
+                        <i class="fas fa-book"></i>
+                        <span class="more"><b>Reseña historia de la institución</b></span>
+                         <div class="LP__info" >
+                             <p id = "InfoInst" class="mostrar">Posteriormente el 14 de Enero de 1976, según decreto de Gaceta  Oficial Nº 30894, le fue asignado un nuevo Epónimo al Plantel: <strong>“CICLO BÁSICO MONSEÑOR DOCTOR JESUS MARIA PELLIN”</strong> 
+                                en homenaje al Ilustre Prelado de la Iglesia Católica, Fundador del Diario la Religión de Caracas. A partir del 1º de Octubre del año 1976, el Liceo pasó a tener su sede propia en la Urbanización Pirineos II en la misma ciudad en su Parte Alta.
+                                En el año escolar 1993-1994 se creó el Ciclo Diversificado, convirtiéndose automáticamente en Unidad Educativa “Monseñor Dr. Jesús María Pellín” hace 14 años se realizó la primera promoción en la actualidad nuestro plantel cuenta con: 21 Secciones, 
+                                04 Coordinaciones Pedagógicas, 01 Coordinación de Evaluación, 01 de Control de Estudio, la Coordinación de Bienestar Estudiantil, la Coordinación de Desarrollo Endógeno, Coordinación del PAEB, Coordinación de Formación Docente, Coordinación de Ciencia y 
+                            </p>
+                         </div>
+                         <span class="arrow"><i class="fas fa-chevron-up"></i></span>   
+                    </div>
+                    <div class="cards LP" title="Ver más información" onclick="mostrar('infoEvo')">
+                        <i class="fas fa-users"></i>
+                        <span class="more"><b>Origenes de nuestra comunidad</b></span>
+                         <div class="LP__info" >
+                             <p id="infoEvo" class="mostrar">Para el Año de 1975 empieza a conformarse la urbanización de pirineos II con pocas familias.  Para el año de 1976, nace el primer niño de la urbanización, hijo de José Anibal Chacón y Felicio Oliveros Chacón. Siguió creciendo la comunidad  contando con transporte público de la línea Romera la Normal. En 1978 el Sr. Antonio León Páez instalaría una farmacia que dura 20 años; posteriormente en mayo de 1981 los vecinos se organizan para conformar comisiones y pedir la construcción de una iglesia, en 1987  el párroco padre Roberto Arellano tendría cargo el funcionamiento de la iglesia “SANTISIMA TRINIDAD” centro espiritual que por muchos años realizaría una gran labor social ese mismo año se crea el Centro de Concentración el Tama fundadores: Lorenzo Medina y Jaimes Duque Suarez.
+                                En mayo de 1981 se realizaron las primeras competencias deportivas en homenaje a las madres dicha actividad fue organizada por Alicia Duque y los jóvenes Raúl Mendoza y Alberto Castro con miras a proyectar Pirineos II hacia actividades deportivas cívicas y culturales.  En el 2003 comienza a funcionar un centro de conservación y saneamiento ambiental. Fundadores Ataguapa Duque, Leonardo Vivas y Ricardo Yañez.
+                                Actualmente la comunidad de Pirineos II   cuenta con el Consejo Comunal que tiene la tarea de planificar activamente a nuestra localidad en los diferentes aspectos políticos, sociales, culturales, sanitarios, educativos con e fin de hacer de pirineos II un espacio activo.
+                                </p>
+                         </div>
+                         <span class="arrow"><i class="fas fa-chevron-up"></i></span>   
+                    </div>
+                    <div class="cards LP" title="Ver más información" onclick="mostrar('infoComun')">
+                        <i class="fas fa-user-clock"></i>
+                        <span class="more"><b>Evolucion de la comunidad</b></span>
+                         <div class="LP__info" >
+                             <p id="infoComun" class="mostrar">En el aspecto educativo Pirineos II se ha caracterizado por contar con instituciones educativas desde sus orígenes, ya que el primer Jardín de Infancia empezó a funcionar en 1975, la directora fundadora fue la Profesora Dionedes Ojeda. 
+                                Ese mismo año comienza a funcionar el Jardín de infancia Pirineos I, conocido con el nombre la Bota  directora fundadora Fanny Quintero.
+                                En 1976 se funda la Escuela Raùl Antonio reyes Araque su primer director fue profesor Miguel Ángel González; ese mismo año con el nombre del ilustrísimo Mons. Dr. Jesús María Pellín; según decreto presidencial se funda el primer liceo de la comunidad cuya primera directora fue Lcda. Eudosia Meneses de Rosales. Actualmente a nivel educativo la comunidad de pirineos II, cuenta con las instituciones antes mencionadas formando generaciones de relevo en el marco de las directrices y disposiciones emanadas del Ministerio Popular para la Educación.  
+                                Cabe destacar, que la misión Sucre imparte la educación en el turno de la noche en las instalaciones del Liceo Bolivariano Dr. Jesús María Pellín y los fines de semana La Universidad Abierta imparte clases a Universitarios.
+                                Pirineos II se caracteriza porque se cuenta con el INCES y una Escuela de Música llamado “”FUNDACIÒN EL CHIMBORAZO” que de manera gratuita forma talento musical para que se destaque en las diferentes ramas de la música </p>
+                         </div>
+                         <span class="arrow"><i class="fas fa-chevron-up"></i></span>   
+                    </div>
+                    
+                </div>
+                <div class="wave"></div>
+              <aside>
+                  <h2>Informaciones</h2>
+                <li>
+                    <ul>
+                        <div class="boxCards">
+                            <div class="cardsInfo">
+                                <div class="imgCard">
+                                    <img src="assets/main pics/liceo.jpg" alt="">
+                                    <div class="titleCard">
+                                        <span>Reunion de Representantes</span>
+                                    </div>
+    
+                                </div>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque explicabo 
+                                    nulla consequatur facilis dicta natus itaque dolorum nobis eligendi, 
+                                    reiciendis dignissimos necessitatibus ea, quam laborum accusantium tempore. Alias, autem.
+                                </p>
+                                <div class="date">
+                                    <span>Fecha enviada: 17/09/2021</span>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="boxCards">
+                            <div class="cardsInfo">
+                                <div class="imgCard">
+                                    <img src="assets/main pics/liceo.jpg" alt="">
+                                    <div class="titleCard">
+                                        <span>Convocatoria (Paseo)</span>
+                                    </div>
+    
+                                </div>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque explicabo 
+                                    nulla consequatur facilis dicta natus itaque dolorum nobis eligendi, 
+                                    reiciendis dignissimos necessitatibus ea, quam laborum accusantium tempore. Alias, autem.
+                                </p>
+                                <div class="date">
+                                    <span>Fecha enviada: 17/09/2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="boxCards">
+                            <div class="cardsInfo">
+                                <div class="imgCard">
+                                    <img src="assets/main pics/liceo.jpg" alt="">
+                                    <div class="titleCard">
+                                        <span>Convogatoria (Obligatoria)</span>
+                                    </div>
+    
+                                </div>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque explicabo 
+                                    nulla consequatur facilis dicta natus itaque dolorum nobis eligendi, 
+                                    reiciendis dignissimos necessitatibus ea, quam laborum accusantium tempore. Alias, autem.
+                                </p>
+                                <div class="date">
+                                    <span>Fecha enviada: 17/09/2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="boxCards">
+                            <div class="cardsInfo">
+                                <div class="imgCard">
+                                    <img src="assets/main pics/liceo.jpg" alt="Liceo Pellin">
+                                    <div class="titleCard">
+                                        <span>Informacion</span>
+                                    </div>
+    
+                                </div>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque explicabo 
+                                    nulla consequatur facilis dicta natus itaque dolorum nobis eligendi, 
+                                    reiciendis dignissimos necessitatibus ea, quam laborum accusantium tempore. Alias, autem.
+                                </p>
+                                <div class="date">
+                                    <span>Fecha enviada: 17/09/2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+              </aside>
+            </section>
+            
+        </section>
+    </article>
+
+    <footer>
+        <div id="contact">
+            <span class="contact-section"><b>Contact</b> </span>
+            <ul id="contact-list">
+                <li> <a href="http://instagram.com/theapsu3" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li> <a href="http://wa.me" target="_blank" ><i class="fab fa-whatsapp" ></i></a></li>
+                <li> <a href="https://www.facebook.com/Duque.Ricardo2004" target="_blank"><i class="fab fa-facebook-f"></i></a> </li>
+                <li> <a href="https://web.telegram.org/" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+                <li> <a href="https://ve.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li> <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li> <a href="https://workana.com/" target="_blank"><i class="fas fa-user-friends"></i></a></li>
+            </ul>
+            <span id="copy-section">@copyright All reserved by R&R</span>
+            <span> <b>Web Designed by</b>: Ricardo Duque fond of technologies and always willing to learn</span>
+        </div>
+    </footer>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.8/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+        <script src="/__/firebase/init.js"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>

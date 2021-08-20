@@ -1,0 +1,14 @@
+{
+  "name": "pagina-pellin",
+  "version": "1.0.0",
+  "description": "pagina",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^8.6.8"
+  }
+}
