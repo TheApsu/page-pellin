@@ -281,7 +281,7 @@ hr{
     left: 0;
     width: 100%;
     height: 30vw;
-    background: url("assets/Main Pics/wave.png");
+    background: url("assets/mai-pics/wave.png");
     background-size: cover;
 }
 .wrapper{
@@ -296,7 +296,7 @@ hr{
     position: relative;
     flex-basis: 100%;
     min-height: 400px;
-    background: url("assets/Main pics/liceo.jpg");
+    background: url("assets/main-pics/liceo.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
