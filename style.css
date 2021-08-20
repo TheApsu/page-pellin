@@ -296,7 +296,7 @@ hr{
     position: relative;
     flex-basis: 100%;
     min-height: 400px;
-    background: url("assets/main pics/liceo.jpg");
+    background: url("assets/Main pics/liceo.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
